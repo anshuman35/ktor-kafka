@@ -1,6 +1,11 @@
 const wsProto = (window.location.protocol === 'https:') ? 'wss:' : 'ws:';
 const wsBase = `${wsProto}//${window.location.hostname}:${window.location.port}`;
+const zx = `${window.location}`;
 
+window.onload = function (){
+    let zxg = `${window.location.hostname}`;
+    
+}
 window.onload = function () {
     $(".alert").hide()
     let myForm = document.getElementById('myform');
